@@ -1,18 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <f7-view id="app">
+    <f7-page>
+      <f7-link href="/about/">About</f7-link>
+      <f7-link href="/login/">Login</f7-link>
+    </f7-page>
+  </f7-view>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "app",
-  components: {
-    HelloWorld
-  }
+  components: {}
 };
 </script>
 
