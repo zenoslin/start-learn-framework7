@@ -1,26 +1,21 @@
 <template>
-  <f7-view id="app">
-    <f7-page>
-      <f7-link href="/about/">About</f7-link>
-      <f7-link href="/login/">Login</f7-link>
-    </f7-page>
-  </f7-view>
+  <div id="app">
+    <f7-statusbar></f7-statusbar>
+    <f7-panel left cover></f7-panel>
+    <f7-panel right reveal></f7-panel>
+    <f7-view url="/" :main="true" class="ios-edges"></f7-view>
+  </div>
 </template>
 
 <script>
+import { f7Panel, f7View, f7Statusbar } from "framework7-vue";
+
 export default {
   name: "app",
-  components: {}
+  components: {
+    f7Panel,
+    f7View,
+    f7Statusbar
+  }
 };
 </script>
-
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
