@@ -1,6 +1,6 @@
-import Home from "./page/Home.vue";
-import AboutPage from "./page/About.vue";
-import LoginPage from "./page/Login.vue";
+import Home from "./page/Home";
+import About from "./page/About";
+import Accordion from "./page/Accordion";
 
 const routes = [
   {
@@ -9,11 +9,11 @@ const routes = [
   },
   {
     path: "/about/",
-    component: AboutPage
+    component: About
   },
   {
-    path: "/login/",
-    component: LoginPage
+    path: "/accordion/",
+    component: Accordion
   }
 ];
 

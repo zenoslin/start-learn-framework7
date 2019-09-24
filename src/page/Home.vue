@@ -8,6 +8,11 @@
     <f7-list class="searchbar-hide-on-search">
       <f7-list-item title="About Framework7" link="/about/"></f7-list-item>
     </f7-list>
+
+    <f7-block-title class="searchbar-found">Components</f7-block-title>
+    <f7-list class="components-list searchbar-found">
+      <f7-list-item link="/accordion/" title="Accordion"></f7-list-item>
+    </f7-list>
   </f7-page>
 </template>
 
@@ -18,7 +23,8 @@ import {
   f7NavRight,
   f7Link,
   f7List,
-  f7ListItem
+  f7ListItem,
+  f7BlockTitle
 } from "framework7-vue";
 
 export default {
@@ -28,7 +34,8 @@ export default {
     f7NavRight,
     f7Link,
     f7List,
-    f7ListItem
+    f7ListItem,
+    f7BlockTitle
   }
 };
 </script>
