@@ -17,7 +17,8 @@ new Vue({
   routes,
   framework7: {
     root: "#app",
-    id: "io.framework7.testapp"
+    id: "io.framework7.testapp",
+    theme: "ios"
   },
   render: h => h(App)
 }).$mount("#app");

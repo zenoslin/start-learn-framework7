@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { f7Page, f7Navbar, f7BlockTitle, f7Block } from "framework7-vue";
+import { f7Page, f7Navbar, f7BlockTitle, f7Block } from 'framework7-vue';
 export default {
   components: {
     f7Page,
