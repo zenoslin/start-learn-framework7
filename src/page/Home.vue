@@ -12,6 +12,7 @@
     <f7-block-title class="searchbar-found">Components</f7-block-title>
     <f7-list class="components-list searchbar-found">
       <f7-list-item link="/accordion/" title="Accordion"></f7-list-item>
+      <f7-list-item link="/actions/" title="Actions"></f7-list-item>
     </f7-list>
   </f7-page>
 </template>
